@@ -3,13 +3,20 @@ import java.util.Scanner;
 public class helloworld {
 
 	public static void main(String[] args) {
-		
+	
+	Scanner in = new Scanner(System.in);
+	
 		int a;
 		int b;
 		
-		 a = 1;
-		 b = 3;
+
+		System.out.println("You're bad at math");
 		
+		 a = in.nextInt();
+		 b = in.nextInt();
+		
+		 System.out.println(a+b);
+		 
 		 int sum;
 		 int diff1;
 		 int diff2;
@@ -19,15 +26,12 @@ public class helloworld {
 		 diff2 = (a-b);
 		
 		
-		Scanner in = new Scanner(System.in);
-		
-		System.out.println("You're bad at math");
-		
 		switch(in.nextLine()) {
 		
 		case "a+b":
 			System.out.println (sum);
 			break;
+			
 			
 		case "a-b":
 			System.out.println(diff2);
@@ -38,7 +42,7 @@ public class helloworld {
 			break;
 		
 		default:
-			System.out.println("stop trying);
+			System.out.println("stop trying");
 			break;
 		}
 		
