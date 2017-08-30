@@ -30,8 +30,8 @@ public class helloworld {
 		System.out.println("Are you a doctor, cop, fisherman, busdriver, or student?");	
 		switch(in.nextLine()) {
 		
-//		case "doctor":
-//			System.out.println(x);
+		case "doctor":
+			System.out.println(x);
 
 		 default:
 			System.out.println("Okay, you didn't answer my question correctly, lets try again.");
